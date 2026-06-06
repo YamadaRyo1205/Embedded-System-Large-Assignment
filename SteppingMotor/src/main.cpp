@@ -14,7 +14,6 @@ void setup() {
   pinMode(Pin3, OUTPUT);
   pinMode(Pin4, OUTPUT);
   Serial.begin(115200);
-  Serial.println("步进电机控制初始化完成");
 }
 
 void StepMotor(int step) {
